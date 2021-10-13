@@ -6,7 +6,7 @@ export default class MainScene extends Phaser.Scene{
     }
     //Nơi để load các assets trước khi chúng được sử dụng
     preload(){
-        this.load.image('Background', 'assets/BG final.png');
+        this.load.image('Background', 'assets/BG_final.png');
         this.load.image('Female', 'assets/Female_character.png');
         this.load.image('Male', 'assets/Male_character.png');
         this.load.image('Text_1', 'assets/Text_Image.png');
