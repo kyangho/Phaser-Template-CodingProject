@@ -5,6 +5,7 @@ export default class MainScene extends Phaser.Scene{
         });
     }
     //Nơi để load các assets trước khi chúng được sử dụng
+    //THAY DOI
     preload(){
         this.load.image('Background', 'assets/BG_final.png');
         this.load.image('Female', 'assets/Female_character.png');
