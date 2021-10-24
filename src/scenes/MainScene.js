@@ -8,7 +8,7 @@ export default class MainScene extends Phaser.Scene {
             //THAY DOI
             //changea
             //Thay doi rat nhieu thu
-            // hello world
+            //hello world
         preload() {
                 this.load.image('Background', 'assets/BG_final.png');
                 this.load.image('Female', 'assets/Female_character.png');
