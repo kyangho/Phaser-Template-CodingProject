@@ -18,4 +18,3 @@ const config = {
 
 //Khởi tạo game và runnnnnnnnnnnnn
 var game = new Phaser.Game(config);
-
