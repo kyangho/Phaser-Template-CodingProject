@@ -13,7 +13,7 @@ const config = {
             debug: true
         }
     },
-    scene: [MainScene, Preload]
+    scene: [MainScene]
 };
 
 //Khởi tạo game và runnnnnnnnnnnnn
