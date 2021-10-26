@@ -4,8 +4,8 @@ import MainScene from "./scenes/MainScene.js";
 //Cài đặt các thông số cho Game của mình
 const config = {
     type: Phaser.AUTO,
-    width: 700,
-    height: 700,
+    width: "100%",
+    height: "100%",
     backgroundColor: '#ffffff',
     physics: {
         default: 'arcade',
@@ -13,7 +13,7 @@ const config = {
             debug: true
         }
     },
-    scene: [MainScene]
+    scene: [MainScene, Preload]
 };
 
 //Khởi tạo game và runnnnnnnnnnnnn
